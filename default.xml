@@ -266,10 +266,7 @@
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
-  <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
-  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
-  <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
@@ -302,7 +299,6 @@
   <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/ContactsProvider" name="platform/packages/providers/ContactsProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
@@ -431,11 +427,14 @@
   <project path="hardware/qcom/media-cm_aosp" name="hardware_qcom_media-cm_aosp" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="kk4.4" groups="qcom" />
-  <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4-tele" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="kk4.4-tele" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="kk4.4-tele" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="kk4.4-tele" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSTools" name="packages_apps_EOSTools" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="teameos" revision="kk4.4" />
@@ -445,6 +444,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4-tele" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4-tele" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4-tele" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4-tele" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
@@ -457,7 +457,7 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="teameos" revision="kk4.4" />
   <project path="system/security" name="system_security" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" revision="kk4.4" groups="pdk" />
-  <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="kk4.4-tele" groups="pdk" />
   
   <!-- TeamEos Devices -->
   <project path="device/asus/deb" name="device_asus_deb" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,flo" />
