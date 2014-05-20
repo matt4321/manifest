@@ -391,6 +391,7 @@
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/nano" name="external_nano" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/openssl" name="external_openssl" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/proguard" name="external_proguard" remote="teameos" revision="kk4.4" groups="pdk-java" />
   <project path="external/rsync" name="external_rsync" remote="teameos" revision="kk4.4" groups="notdefault" />
