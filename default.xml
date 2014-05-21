@@ -257,7 +257,6 @@
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
@@ -429,6 +428,7 @@
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Browser" name="packages_apps_Browser" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="kk4.4" />
