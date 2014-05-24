@@ -469,6 +469,7 @@
   <project path="device/asus/flo" name="device_asus_flo" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,flo" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
+  <project path="device/hp/tenderloin" name="device_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,device,hp,tenderloin" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
   <project path="device/htc/m7" name="device_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7," />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7spr," />
@@ -504,6 +505,7 @@
   <!-- TeamEos Kernels -->
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,flo" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,kernel,asus,grouper" />
+  <project path="kernel/hp/tenderloin" name="kernel_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,kernel,hp,tenderloin" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,dlx" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
   <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,g2,d800,d801,d802,ls980,vs980" />
@@ -521,6 +523,7 @@
   <project path="vendor/broadcom" name="vendor_broadcom" remote="teameos" revision="kk4.4" groups="vendor,broadcom" />
   <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="kk4.4" groups="vendor,elan,asus,grouper,tilapia" />
   <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball" />
+  <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,vendor,hp,tenderloin" />
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="kk4.4" groups="vendor,invensense" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
