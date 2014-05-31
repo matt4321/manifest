@@ -472,12 +472,13 @@
   <project path="device/asus/grouper" name="device_asus_grouper" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,grouper" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" remote="teameos" revision="kk4.4" groups="notdefault,device,asus,tilapia" />
   <project path="device/hp/tenderloin" name="device_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,device,hp,tenderloin" />
+  <project path="device/htc/dlx" name="device_htc_dlx" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,dlx," />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
   <project path="device/htc/m7" name="device_htc_m7" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7," />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7spr," />
   <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m7vzw," />
   <project path="device/htc/m8" name="device_htc_m8" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,m8" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball,dlx" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
   <project path="device/htc/evita" name="device_htc_evita" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,evita" />
   <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="kk4.4" groups="notdefault,device,htc,s4,fireball" />
