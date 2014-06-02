@@ -450,6 +450,7 @@
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="teameos" revision="kk4.4" />
