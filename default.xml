@@ -284,7 +284,6 @@
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
-  <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
   <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
@@ -292,7 +291,6 @@
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
-  <project path="packages/providers/MediaProvider" name="platform/packages/providers/MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="platform/packages/providers/PartnerBookmarksProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="platform/packages/providers/UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" name="platform/packages/screensavers/Basic" />
@@ -454,11 +452,13 @@
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="teameos" revision="kk4.4" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="kk4.4" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="kk4.4" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" remote="teameos" revision="kk4.4" groups="pdk,linux,arm" />
