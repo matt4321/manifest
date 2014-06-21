@@ -503,7 +503,7 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
   <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
   <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray" />
-  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
+  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
   <project path="device/oppo/find7" name="device_oppo_find7" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find7" />
