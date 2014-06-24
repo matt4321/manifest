@@ -148,7 +148,6 @@
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
   <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
-  <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libusb" name="platform/external/libusb" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
@@ -388,6 +387,7 @@
   <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/libsepol" name="external_libsepol" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/nano" name="external_nano" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="teameos" revision="kk4.4" groups="pdk" />
