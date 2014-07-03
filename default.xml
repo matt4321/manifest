@@ -103,7 +103,6 @@
   <project path="external/esd" name="platform/external/esd" />
   <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
-  <project path="external/f2fs-tools" name="platform/external/f2fs-tools" revision="master" groups="pdk" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
@@ -376,6 +375,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/dhcpcd" name="external_dhcpcd" remote="teameos" revision="kk4.4" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="teameos" revision="kk4.4" />
   <project path="external/htop" name="external_htop" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/iproute2" name="external_iproute2" remote="teameos" revision="kk4.4" groups="pdk" />
