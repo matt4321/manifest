@@ -542,7 +542,7 @@
   <project path="vendor/audience" name="vendor_audience" remote="teameos" revision="kk4.4" groups="vendor,audience,manta" />
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,asus" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="teameos" revision="kk4.4" groups="vendor,broadcom" />
-  <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="kk4.4" groups="vendor,elan,asus,grouper,tilapia" />
+  <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="kk4.4" groups="notdefault,vendor,elan,grouper,tilapia" />
   <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball" />
   <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,vendor,hp,tenderloin" />
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
