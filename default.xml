@@ -4,6 +4,13 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+
+  <remote  name="teameos"
+           fetch="git://github.com/teameos/"
+           review="review.teameos.org"
+           sync-j="4"
+           revision="kk4.4" />
+
   <default revision="l-preview"
            remote="aosp"
            sync-j="4" />
