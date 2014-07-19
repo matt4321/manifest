@@ -491,4 +491,14 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="l-preview" />
   <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="l-preview" groups="pdk" />
 
+  <!-- TeamEos Devices -->
+  <project path="device/oppo/find7" name="device_oppo_find7" remote="teameos" revision="l-preview" groups="notdefault,device,oppo,find7" />
+  <project path="device/oppo/find7a" name="device_oppo_find7a" remote="teameos" revision="l-preview" groups="notdefault,device,oppo,find7a" />
+
+  <!-- TeamEos Kernels -->
+  <project path="kernel/oppo/find7" name="kernel_oppo_find7" remote="teameos" revision="l-preview" groups="notdefault,kernel,oppo,find7,find7a" />
+
+  <!-- TeamEos Vendors -->
+  <project path="vendor/oppo/find7" name="vendor_oppo_find7" remote="teameos" revision="l-preview" groups="notdefault,vendor,oppo,find7,find7a" />
+
 </manifest>
