@@ -436,6 +436,7 @@
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="teameos" revision="kk4.4" groups="qcom" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="kk4.4" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="teameos" revision="kk4.4" groups="exynos5" />
@@ -519,6 +520,9 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray" />
   <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
+  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
+  <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="device/oneplus/bacon" name="device_oneplus_bacon" remote="teameos" revision="kk4.4" groups="notdefault,device,oneplus,bacon" />
   <project path="device/oppo/common" name="device_oppo_common" remote="teameos" revision="kk4.4" groups="notdefault,device,oneplus,bacon" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="kk4.4" groups="notdefault,device,oppo,find5" />
@@ -544,6 +548,7 @@
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
+  <project path="kernel/motorola/msm8226" name="cannondalev2000/kernel_motorola_msm8226" remote="github" revision="kk44" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="kernel/oneplus/msm8974" name="kernel_oneplus_msm8974" remote="teameos" revision="kk4.4" groups="notdefault,device,oneplus,bacon" />
   <project path="kernel/oppo/find7" name="kernel_oppo_find7" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find7,find7a" />
   <project path="kernel/oppo/msm8960" name="kernel_oppo_msm8960" remote="teameos" revision="kk4.4" groups="notdefault,kernel,oppo,find5,n1" />
