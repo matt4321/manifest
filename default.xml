@@ -460,6 +460,7 @@
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
