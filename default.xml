@@ -231,11 +231,9 @@
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" />
   <project path="frameworks/opt/inputmethodcommon" name="platform/frameworks/opt/inputmethodcommon" />
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
-  <project path="frameworks/opt/net/voip" name="platform/frameworks/opt/net/voip" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/timezonepicker" name="platform/frameworks/opt/timezonepicker" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" />
-  <project path="frameworks/rs" name="platform/frameworks/rs" groups="pdk" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" />
@@ -411,8 +409,10 @@
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="frameworks_opt_telephony-msim" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="teameos" revision="kk4.4" />
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/webview" name="frameworks_webview" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="kk4.4" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="teameos" revision="kk4.4" groups="broadcom_wlan" />
