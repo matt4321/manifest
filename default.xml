@@ -143,7 +143,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libssh2" name="platform/external/libssh2" />
   <project path="external/libusb" name="platform/external/libusb" />
@@ -386,6 +385,7 @@
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="kk4.4" groups="notdefault" />
+  <project path="external/libpng" name="external_libpng" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libsepol" name="external_libsepol" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/libxml2" name="external_libxml2" remote="teameos" revision="kk4.4" />
