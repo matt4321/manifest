@@ -512,10 +512,10 @@
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,g2,d800,d801,d802,d803,ls980,vs980" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
-  <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray,wingray" />
-  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest,wingray" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma,wingray" />
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,xoom,wingray,stingray,stingray_cdma,everest" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,xoom,stingray" />
+  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,xoom,umts_everest" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,xoom,stingray_cdma" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
