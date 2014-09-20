@@ -513,9 +513,9 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="kk4.4" groups="notdefault,device,lge,mako" />
   <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,wingray" />
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray" />
-  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray,wingray" />
+  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,umts_everest,wingray" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="kk4.4" groups="notdefault,device,moto,motorola,xoom,stingray_cdma,wingray" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="teameos" revision="kk4.4" groups="notdefault,device,motorola,falcon,msm8226-common" />
@@ -557,7 +557,7 @@
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,asus" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="teameos" revision="kk4.4" groups="vendor,broadcom" />
   <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="kk4.4" groups="notdefault,vendor,elan,grouper,tilapia" />
-  <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball" />
+  <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball,m8" />
   <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,vendor,hp,tenderloin" />
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="kk4.4" groups="vendor,invensense" />
