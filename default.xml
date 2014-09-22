@@ -423,6 +423,7 @@
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="teameos" revision="kk4.4" groups="qcom" />
+  <project path="hardware/qcom/audio-cm_aosp" name="hardware_qcom_audio-cm_aosp" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="teameos" revision="kk4.4" groups="qcom" />
