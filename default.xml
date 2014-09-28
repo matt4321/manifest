@@ -51,7 +51,6 @@
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
   <project path="external/apache-harmony" name="platform/external/apache-harmony" />
-  <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/apache-qp" name="platform/external/apache-qp" />
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
@@ -358,6 +357,7 @@
   <project path="bionic" name="bionic" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="libcore" name="libcore" remote="teameos" revision="kk4.4" groups="pdk" />
+  <project path="external/apache-http" name="external_apache-http" remote="teameos" revision="kk4.4" />
   <project path="external/backports-wireless" name="external_backports-wireless" remote="teameos" revision="kk4.4"/>
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/bson" name="external_bson" remote="teameos" revision="kk4.4" />
