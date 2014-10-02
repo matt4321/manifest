@@ -452,6 +452,7 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="kk4.4" />
+  <project path="packages/apps/EOSUpdater" name="packages_apps_EOSUpdater" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSWallpapers" name="packages_apps_EOSWallpapers" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/EOSWeather" name="packages_apps_EOSWeather" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="kk4.4" />
