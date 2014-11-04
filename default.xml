@@ -8,7 +8,7 @@
             fetch="git://github.com/teameos-m/"
             review="review.teameos.org"
             sync-j="4"
-            revision="kk4.4" />
+            revision="lp5.0" />
 
   <default revision="refs/tags/android-5.0.0_r2"
             remote="aosp"
