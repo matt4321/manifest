@@ -52,14 +52,11 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/htc/flounder" name="device/htc/flounder" groups="device,flounder" />
   <project path="device/htc/flounder-kernel" name="device/htc/flounder-kernel" groups="device,flounder" clone-depth="1" />
-  <project path="device/lge/hammerhead" name="device/lge/hammerhead" groups="device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
   <project path="device/moto/shamu" name="device/moto/shamu" groups="device,shamu" />
   <project path="device/moto/shamu-kernel" name="device/moto/shamu-kernel" groups="device,shamu" clone-depth="1" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
@@ -515,12 +512,58 @@
   <project path="system/netd" name="system_netd" groups="pdk" remote="teameos" revision="lp5.0" />
   <project path="system/security" name="system_security" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" revision="lp5.0" groups="pdk" />
+
+  <!-- TeamEos Devices -->
+  <project path="device/hp/tenderloin" name="device_hp_tenderloin" remote="teameos" revision="lp5.0" groups="notdefault,device,hp,tenderloin" />
+  <project path="device/htc/dlx" name="device_htc_dlx" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,dlx," />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,m7,m7spr,m7vzw" />
+  <project path="device/htc/m7" name="device_htc_m7" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,m7," />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,m7spr," />
+  <project path="device/htc/m7vzw" name="device_htc_m7vzw" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,m7vzw," />
+  <project path="device/htc/m8" name="device_htc_m8" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,m8" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball,dlx" />
+  <project path="device/htc/s4-common" name="device_htc_s4-common" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
+  <project path="device/htc/evita" name="device_htc_evita" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,evita" />
+  <project path="device/htc/fireball" name="device_htc_fireball" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,fireball" />
+  <project path="device/htc/jewel" name="device_htc_jewel" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,jewel" />
+  <project path="device/htc/ville" name="device_htc_ville" remote="teameos" revision="lp5.0" groups="notdefault,device,htc,s4,ville" />
+  <project path="device/lge/d800" name="device_lge_d800" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2.d800" />
+  <project path="device/lge/d801" name="device_lge_d801" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,d801" />
+  <project path="device/lge/d802" name="device_lge_d802" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,d802" />
+  <project path="device/lge/d803" name="device_lge_d803" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,d803" />
+  <project path="device/lge/f320" name="device_lge_f320" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,f320" />
+  <project path="device/lge/ls980" name="device_lge_ls980" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,ls980" />
+  <project path="device/lge/vs980" name="device_lge_vs980" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,vs980" />
+  <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,d800,d801,d802,d803,ls980,vs980" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,hammerhead" />
+  <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,mako" />
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,wingray,stingray,stingray_cdma,everest" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,stingray" />
+  <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,umts_everest" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,stingray_cdma" />
+  <project path="device/motorola/falcon" name="device_motorola_falcon" remote="teameos" revision="lp5.0" groups="notdefault,device,motorola,falcon,msm8226-common" />
+  <project path="device/motorola/msm8226-common" name="device_motorola_msm8226-common" remote="teameos" revision="lp5.0" groups="notdefault,device,motorola,falcon,msm8226-common" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="teameos" revision="lp5.0" groups="notdefault,device,motorola,falcon,msm8226-common" />
+  <project path="device/oneplus/bacon" name="device_oneplus_bacon" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
+  <project path="device/oppo/common" name="device_oppo_common" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
+  <project path="device/oppo/find5" name="device_oppo_find5" remote="teameos" revision="lp5.0" groups="notdefault,device,oppo,find5" />
+  <project path="device/oppo/find7" name="device_oppo_find7" remote="teameos" revision="lp5.0" groups="notdefault,device,oppo,find7" />
+  <project path="device/oppo/find7a" name="device_oppo_find7a" remote="teameos" revision="lp5.0" groups="notdefault,device,oppo,find7a" />
+  <project path="device/oppo/msm8974-common" name="device_oppo_msm8974-common" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
+  <project path="device/oppo/n1" name="device_oppo_n1" remote="teameos" revision="lp5.0" groups="notdefault,device,oppo,n1" />
+  <project path="device/qcom/common" name="device_qcom_common" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="teameos" revision="lp5.0" groups="notdefault,device,samsung,tuna,maguro" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="teameos" revision="lp5.0" groups="notdefault,device,samsung,manta" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="teameos" revision="lp5.0" groups="notdefault,device,samsung,tuna,toro" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="teameos" revision="lp5.0" groups="notdefault,device,samsung,tuna,toroplus" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="teameos" revision="lp5.0" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
   
   <!-- TeamEos Vendors -->
   <project path="vendor/audience" name="vendor_audience" remote="teameos" revision="lp5.0" groups="vendor,audience,manta" />
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="lp5.0" groups="notdefault,vendor,asus" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="teameos" revision="lp5.0" groups="vendor,broadcom" />
   <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="lp5.0" groups="notdefault,vendor,elan,grouper,tilapia" />
+  <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="lp5.0" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball,m8" />
   <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="lp5.0" groups="notdefault,vendor,hp,tenderloin" />
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="lp5.0" groups="vendor,imgtec" />
