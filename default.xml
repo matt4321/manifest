@@ -451,6 +451,7 @@
   <project path="external/exfat" name="external_exfat" remote="teameos" revision="lp5.0" />
   <project path="external/flac" name="external_flac" remote="teameos" revision="lp5.0" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/fuse" name="external_fuse" remote="teameos" revision="lp5.0" />
   <project path="external/htop" name="external_htop" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/iproute2" name="external_iproute2" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="lp5.0" groups="notdefault" />
