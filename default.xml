@@ -286,9 +286,6 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -303,9 +300,6 @@
   <project path="hardware/intel/img/libdrm" name="platform/hardware/intel/img/libdrm" groups="intel" />
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
@@ -318,11 +312,8 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -480,10 +471,21 @@
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="frameworks_rs" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/webview" name="frameworks_webview" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="lp5.0" />
+  <project path="hardware/atheros/wlan" name="hardware_atheros_wlan" remote="teameos" revision="lp5.0" groups="atheros" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="teameos" revision="lp5.0" groups="broadcom_wlan" />
+  <project path="hardware/invensense" name="hardware_invensense" remote="teameos" revision="lp5.0" groups="invensense" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="lp5.0" groups="exynos3,exynos4" />
+  <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="teameos" revision="lp5.0" groups="exynos5" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="teameos" revision="lp5.0" groups="omap4" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="lp5.0" />
