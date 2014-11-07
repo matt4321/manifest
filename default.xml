@@ -17,9 +17,6 @@
             remote="aosp"
             sync-j="4" />
 
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
@@ -434,6 +431,9 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
   
   <!-- TeamEos platform -->
+  <project path="build" name="build" remote="teameos" revision="lp5.0" groups="pdk,tradefed" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="art" name="art" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="bionic" name="bionic" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="teameos" revision="lp5.0" groups="pdk" />
