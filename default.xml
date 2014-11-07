@@ -456,6 +456,8 @@
   <project path="external/iproute2" name="external_iproute2" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/iw" name="external_iw" remote="teameos" revision="lp5.0" groups="notdefault" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/libcyanogen-dsp" name="external_libcyanogen-dsp" remote="teameos" revision="lp5.0" />
+  <project path="external/libdirac" name="external_libdirac" remote="teameos" revision="lp5.0" />
   <project path="external/libncurses" name="external_libncurses" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="lp5.0" groups="pdk" />
@@ -505,6 +507,7 @@
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSUpdater" name="packages_apps_EOSUpdater" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSWallpapers" name="packages_apps_EOSWallpapers" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="lp5.0" />
