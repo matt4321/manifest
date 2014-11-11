@@ -559,6 +559,8 @@
   <project path="device/lge/g2-common" name="device_lge_g2-common" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,g2,d800,d801,d802,d803,ls980,vs980" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,hammerhead" />
   <project path="device/lge/mako" name="device_lge_mako" remote="teameos" revision="lp5.0" groups="notdefault,device,lge,mako" />
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,wingray,stingray,stingray_cdma,everest" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,stingray" />
   <project path="device/moto/everest" name="device_moto_umts_everest" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,umts_everest" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="teameos" revision="lp5.0" groups="notdefault,device,moto,xoom,stingray_cdma" />
   <project path="device/motorola/falcon" name="device_motorola_falcon" remote="teameos" revision="lp5.0" groups="notdefault,device,motorola,falcon,msm8226-common" />
@@ -589,6 +591,7 @@
   <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,g2,d800,d801,d802,d803,f320,ls980,vs980" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,mako" />
+  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="lp5.0" groups="notdefault,kernel,moto,xoom,wingray,stingray,everest,stingray_cdma" />
   <project path="kernel/motorola/msm8226" name="InSaNiTy-Development/InSaNiTy_kernel_msm8226" remote="github" revision="InSaNiTy" groups="notdefault,device,motorola,falcon,msm8226-common" />
   <project path="kernel/oneplus/msm8974" name="kernel_oneplus_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
   <project path="kernel/oppo/msm8974" name="kernel_oppo_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,kernel,oppo,find7,find7a" />
@@ -607,6 +610,8 @@
   <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="lp5.0" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="lp5.0" groups="vendor,invensense" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="lp5.0" groups="notdefault,vendor,lge" />
+  <project path="vendor/moto/wingray" name="vendor_moto_wingray" remote="teameos" revision="lp5.0" groups="vendor,moto,wingray,stingray,stingray_cdma,everest" />
+  <project path="vendor/moto/stingray" name="vendor_moto_stingray" remote="teameos" revision="lp5.0" groups="vendor,moto,stingray" />
   <project path="vendor/moto/stingray_cdma" name="vendor_moto_stingray_cdma" remote="teameos" revision="lp5.0" groups="vendor,moto,stingray_cdma" />
   <project path="vendor/moto/everest" name="vendor_moto_everest" remote="teameos" revision="lp5.0" groups="vendor,moto,everest" />
   <project path="vendor/motorola" name="vendor_motorola" remote="teameos" revision="lp5.0" groups="vendor,motorola,falcon" />
