@@ -490,6 +490,7 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/display-caf-new" name="hardware_qcom_display-caf-new" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/fm" name="hardware_qcom_fm" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="teameos" revision="lp5.0" groups="qcom" />
