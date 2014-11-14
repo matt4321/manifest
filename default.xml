@@ -294,16 +294,11 @@
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
-  <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom,qcom_gps" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/msm8x26" name="platform/hardware/qcom/msm8x26" groups="qcom_msm8x26" />
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -485,7 +480,12 @@
   <project path="hardware/invensense" name="hardware_invensense" remote="teameos" revision="lp5.0" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="teameos" revision="lp5.0" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="hardware/samsung" name="hardware_samsung" remote="teameos" revision="lp5.0" groups="exynos3,exynos4" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="teameos" revision="lp5.0" groups="exynos5" />
