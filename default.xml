@@ -464,6 +464,7 @@
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="frameworks_opt_net_ethernet" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
