@@ -548,25 +548,6 @@
   <project path="system/security" name="system_security" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" revision="lp5.0" groups="pdk" />
 
-  <!-- TeamEos Kernels -->
-  <project path="kernel/asus/flo" name="kernel_asus_flo" remote="teameos" revision="lp5.0" groups="notdefault,kernel,asus,flo" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="teameos" revision="lp5.0" groups="notdefault,kernel,asus,grouper" />
-  <project path="kernel/hp/tenderloin" name="kernel_hp_tenderloin" remote="teameos" revision="lp5.0" groups="notdefault,kernel,hp,tenderloin" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="teameos" revision="lp5.0" groups="notdefault,kernel,htc,dlx" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="teameos" revision="lp5.0" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
-  <project path="kernel/htc/msm8974" name="xboxfanj/android_kernel_htc_msm8974" remote="github" revision="lp5.0" groups="notdefault,kernel,htc,msm8974,m8" />
-  <project path="kernel/lge/dory" name="kernel_lge_dory" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,dory" />
-  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,g2,d800,d801,d802,d803,f320,ls980,vs980" />
-  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,hammerhead" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="teameos" revision="lp5.0" groups="notdefault,kernel,lge,mako" />
-  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="teameos" revision="lp5.0" groups="notdefault,kernel,moto,xoom,wingray,stingray,everest,stingray_cdma" />
-  <project path="kernel/motorola/msm8226" name="InSaNiTy-Development/InSaNiTy_kernel_msm8226" remote="github" revision="InSaNiTy" groups="notdefault,device,motorola,falcon,msm8226-common" />
-  <project path="kernel/oneplus/msm8974" name="kernel_oneplus_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
-  <project path="kernel/oppo/msm8974" name="kernel_oppo_msm8974" remote="teameos" revision="lp5.0" groups="notdefault,kernel,oppo,find7,find7a" />
-  <project path="kernel/oppo/msm8960" name="kernel_oppo_msm8960" remote="teameos" revision="lp5.0" groups="notdefault,kernel,oppo,find5,n1" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="teameos" revision="lp5.0" groups="notdefault,kernel,samsung,manta" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="teameos" revision="lp5.0" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
-
   <!-- TeamEos Vendors -->
   <project path="vendor/audience" name="vendor_audience" remote="teameos" revision="lp5.0" groups="vendor,audience,manta" />
   <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="lp5.0" groups="notdefault,vendor,asus" />
