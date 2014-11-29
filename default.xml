@@ -566,11 +566,8 @@
   <project path="vendor/motorola" name="vendor_motorola" remote="teameos" revision="lp5.0" groups="vendor,motorola,falcon" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="teameos" revision="lp5.0" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="lp5.0" groups="vendor,nxp" />
-  <project path="vendor/oneplus" name="vendor_oneplus" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
-  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="teameos" revision="lp5.0" groups="notdefault,vendor,oppo,find5" />
-  <project path="vendor/oppo/find7" name="vendor_oppo_find7" remote="teameos" revision="lp5.0" groups="notdefault,vendor,oppo,find7,find7a" />
-  <project path="vendor/oppo/msm8974-common" name="vendor_oppo_msm8974-common" remote="teameos" revision="lp5.0" groups="notdefault,device,oneplus,bacon" />
-  <project path="vendor/oppo/n1" name="vendor_oppo_n1" remote="teameos" revision="lp5.0" groups="notdefault,vendor,oppo,n1" />
+  <project path="vendor/oneplus" name="vendor_oneplus" remote="teameos" revision="lp5.0" groups="notdefault,vendor,oneplus" />
+  <project path="vendor/oppo" name="vendor_oppo" remote="teameos" revision="lp5.0" groups="notdefault,vendor,oppo" />
   <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="lp5.0" groups="notdefault,vendor,samsung,maguro,tuna" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="teameos" revision="lp5.0" groups="notdefault,vendor,samsung,manta" />
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="lp5.0" groups="notdefault,vendor,samsung,toro,tuna" />
