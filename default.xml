@@ -524,7 +524,6 @@
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="teameos" revision="lp5.0" />
-  <project path="packages/apps/Mms" name="packages_apps_mms" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="lp5.0" />
