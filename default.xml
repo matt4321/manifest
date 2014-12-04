@@ -419,6 +419,9 @@
   <project path="dalvik" name="dalvik" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="libcore" name="libcore" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="teameos" revision="lp5.0" groups="qcom" />
+  <project path="external/ant-wireless_antradio-library" name="external_ant-wireless_antradio-library" remote="teameos" revision="lp5.0"/>
+  <project path="external/ant-wireless_ant_native" name="external_ant-wireless_ant_native" remote="teameos" revision="lp5.0"/>
+  <project path="external/ant-wireless_ant_service" name="external_ant-wireless_ant_service" remote="teameos" revision="lp5.0"/>
   <project path="external/apache-http" name="external_apache-http" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="external/backports-wireless" name="external_backports-wireless" remote="teameos" revision="lp5.0"/>
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="teameos" revision="lp5.0" groups="pdk" />
