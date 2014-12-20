@@ -437,6 +437,7 @@
   <project path="external/flac" name="external_flac" remote="teameos" revision="lp5.0" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/fuse" name="external_fuse" remote="teameos" revision="lp5.0" />
+  <project path="external/google" name="external_google" remote="teameos" revision="lp5.0" />
   <project path="external/htop" name="external_htop" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/iproute2" name="external_iproute2" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/iptables" name="external_iptables" remote="teameos" revision="lp5.0" groups="pdk" />
@@ -508,6 +509,7 @@
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" remote="teameos" revision="lp5.0" groups="omap4" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="teameos" revision="lp5.0" groups="omap4" />
   <project path="hardware/ti/omap4-aah" name="hardware_ti_omap4-aah" remote="teameos" revision="lp5.0" groups="omap4" />
+  <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="teameos" revision="lp5.0" />
@@ -518,11 +520,13 @@
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSUpdater" name="packages_apps_EOSUpdater" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSWallpapers" name="packages_apps_EOSWallpapers" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="lp5.0" />
