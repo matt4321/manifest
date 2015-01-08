@@ -521,6 +521,7 @@
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.0" />
