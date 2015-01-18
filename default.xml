@@ -418,6 +418,7 @@
   <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="lp5.0" />
   <project path="external/clang" name="external_clang" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/curl" name="external_curl" remote="teameos" revision="lp5.0" />
+  <project path="external/connectivity" name="external_connectivity" remote="teameos" revision="lp5.0" />
   <project path="external/dhcpcd" name="external_dhcpcd" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="lp5.0" groups="pdk" />
