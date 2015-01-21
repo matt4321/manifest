@@ -448,6 +448,7 @@
   <project path="external/nano" name="external_nano" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/openssl" name="external_openssl" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/pcre" name="external_pcre" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/proguard" name="external_proguard" remote="teameos" revision="lp5.0" groups="pdk-java,tradefed" />
   <project path="external/rsync" name="external_rsync" remote="teameos" revision="lp5.0" groups="notdefault" />
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="lp5.0" groups="pdk" />
@@ -527,12 +528,14 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Tag" name="packages_apps_Tag" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="lp5.0"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="teameos" revision="lp5.0" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="lp5.0" />
+  <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="teameos" revision="lp5.0" />
   <project path="packages/providers/UserDictionaryProvider" name="packages_providers_UserDictionaryProvider" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="teameos" revision="lp5.0" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="teameos" revision="lp5.0" />
