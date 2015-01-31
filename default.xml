@@ -440,6 +440,7 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libnl" name="external_libnl" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libpng" name="external_libpng" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/libphonenumbergoogle" name="external_libphonenumbergoogle" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libsepol" name="external_libsepol" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/libxml2" name="external_libxml2" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
