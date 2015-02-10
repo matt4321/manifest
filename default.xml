@@ -224,8 +224,6 @@
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" />
   <project path="external/tcpdump" name="platform/external/tcpdump" groups="pdk,pdk-cw-fs" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" groups="pdk-cw-fs" />
-  <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
-  <project path="external/tinycompress" name="platform/external/tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
@@ -236,13 +234,11 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs" />
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
-  <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
-  <project path="frameworks/ex" name="platform/frameworks/ex" groups="pdk-cw-fs" />
   <project path="frameworks/mff" name="platform/frameworks/mff" groups="pdk-cw-fs" />
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs" />
@@ -250,7 +246,6 @@
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs" />
   <project path="frameworks/opt/carddav" name="platform/frameworks/opt/carddav" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/chips" name="platform/frameworks/opt/chips" groups="pdk-cw-fs" />
   <project path="frameworks/opt/colorpicker" name="platform/frameworks/opt/colorpicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/datetimepicker" name="platform/frameworks/opt/datetimepicker" groups="pdk-cw-fs" />
   <project path="frameworks/opt/emoji" name="platform/frameworks/opt/emoji" groups="pdk-cw-fs" />
@@ -262,7 +257,6 @@
   <project path="frameworks/support" name="platform/frameworks/support" groups="pdk-cw-fs" />
   <project path="frameworks/testing" name="platform/frameworks/testing" groups="pdk-cw-fs" />
   <project path="frameworks/volley" name="platform/frameworks/volley" groups="pdk-cw-fs" />
-  <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" groups="pdk-cw-fs" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" />
@@ -454,12 +448,17 @@
   <project path="external/sepolicy" name="external_sepolicy" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/skia" name="external_skia" remote="teameos" revision="lp5.0" groups="pdk-cw-fs,qcom_msm8x26" />
   <project path="external/sqlite" name="external_sqlite" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/tinyalsa" name="external_tinyalsa" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/tinycompress" name="external_tinycompress" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="teameos" revision="lp5.0" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="teameos" revision="lp5.0" groups="pdk" />
+  <project path="external/zlib" name="external_zlib" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/chips" name="frameworks_opt_chips" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="frameworks_opt_net_ethernet" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
@@ -470,6 +469,7 @@
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="frameworks_rs" remote="teameos" revision="lp5.0" groups="pdk" />
   <project path="frameworks/webview" name="frameworks_webview" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="teameos" revision="lp5.0" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="lp5.0" />
   <project path="hardware/atheros/wlan" name="hardware_atheros_wlan" remote="teameos" revision="lp5.0" groups="atheros" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="lp5.0" groups="pdk" />
@@ -528,7 +528,6 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Tag" name="packages_apps_Tag" remote="teameos" revision="lp5.0" />
-  <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="lp5.0"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="teameos" revision="lp5.0" />
