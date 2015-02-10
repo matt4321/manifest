@@ -516,7 +516,6 @@
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSUpdater" name="packages_apps_EOSUpdater" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/EOSWallpaperClient" name="packages_apps_EosWallpaperClient" remote="teameos" revision="lp5.0" />
-  <project path="packages/apps/EOSWallpapers" name="packages_apps_EOSWallpapers" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="lp5.0" />
@@ -529,6 +528,7 @@
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/Tag" name="packages_apps_Tag" remote="teameos" revision="lp5.0" />
+  <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="teameos" revision="lp5.0" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="lp5.0"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="teameos" revision="lp5.0" />
