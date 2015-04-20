@@ -549,31 +549,7 @@
   <project path="system/security" name="system_security" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" revision="lp5.1" groups="pdk" />
 
-  <!-- TeamEos Vendors -->
-  <project path="vendor/audience" name="vendor_audience" remote="teameos" revision="lp5.1" groups="vendor,audience,manta" />
-  <project path="vendor/asus" name="vendor_asus" remote="teameos" revision="lp5.1" groups="notdefault,vendor,asus" />
-  <project path="vendor/broadcom" name="vendor_broadcom" remote="teameos" revision="lp5.1" groups="vendor,broadcom" />
-  <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="lp5.1" groups="notdefault,vendor,elan,grouper,tilapia" />
+  <!-- Define vendor projects in device dependencies as needed -->
   <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="lp5.1" groups="pdk" />
-  <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="lp5.1" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball,m8" />
-  <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="lp5.1" groups="notdefault,vendor,hp,tenderloin" />
-  <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="lp5.1" groups="vendor,imgtec" />
-  <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="lp5.1" groups="vendor,invensense" />
-  <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="lp5.1" groups="notdefault,vendor,lge" />
-  <project path="vendor/moto/wingray" name="vendor_moto_wingray" remote="teameos" revision="lp5.1" groups="vendor,moto,wingray,stingray,stingray_cdma,everest" />
-  <project path="vendor/moto/stingray" name="vendor_moto_stingray" remote="teameos" revision="lp5.1" groups="vendor,moto,stingray" />
-  <project path="vendor/moto/stingray_cdma" name="vendor_moto_stingray_cdma" remote="teameos" revision="lp5.1" groups="vendor,moto,stingray_cdma" />
-  <project path="vendor/moto/everest" name="vendor_moto_everest" remote="teameos" revision="lp5.1" groups="vendor,moto,everest" />
-  <project path="vendor/motorola" name="vendor_motorola" remote="teameos" revision="lp5.1" groups="vendor,motorola,falcon" />
-  <project path="vendor/nvidia" name="vendor_nvidia" remote="teameos" revision="lp5.1" groups="vendor,nvidia" />
-  <project path="vendor/nxp" name="vendor_nxp" remote="teameos" revision="lp5.1" groups="vendor,nxp" />
-  <project path="vendor/oneplus" name="vendor_oneplus" remote="teameos" revision="lp5.1" groups="notdefault,vendor,oneplus" />
-  <project path="vendor/oppo" name="vendor_oppo" remote="teameos" revision="lp5.1" groups="notdefault,vendor,oppo,oneplus" />
-  <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="teameos" revision="lp5.1" groups="notdefault,vendor,samsung,maguro,tuna" />
-  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="teameos" revision="lp5.1" groups="notdefault,vendor,samsung,manta" />
-  <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="teameos" revision="lp5.1" groups="notdefault,vendor,samsung,toro,tuna" />
-  <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="lp5.1" groups="notdefault,vendor,samsung,toroplus,tuna" />
-  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="lp5.1" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
-  <project path="vendor/widevine" name="vendor_widevine" remote="teameos" revision="lp5.1" groups="vendor,widevine" />
 
 </manifest>
