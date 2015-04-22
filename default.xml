@@ -13,7 +13,7 @@
             sync-j="4"
             revision="lp5.1" />
 
-  <default revision="refs/tags/android-5.1.0_r5"
+  <default revision="refs/tags/android-5.1.1_r1"
             remote="aosp"
             sync-j="4" />
 
@@ -475,7 +475,6 @@
   <project path="frameworks/webview" name="frameworks_webview" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="hardware/akm" name="hardware_akm" remote="teameos" revision="lp5.1" />
-  <project path="hardware/atheros/wlan" name="hardware_atheros_wlan" remote="teameos" revision="lp5.1" groups="atheros" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" remote="teameos" revision="lp5.1" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="hardware_invensense" remote="teameos" revision="lp5.1" groups="invensense" />
