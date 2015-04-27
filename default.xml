@@ -442,6 +442,7 @@
   <project path="external/libsepol" name="external_libsepol" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/libxml2" name="external_libxml2" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
+  <project path="external/lz4" name="external_lz4" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/nano" name="external_nano" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/openssl" name="external_openssl" remote="teameos" revision="lp5.1" groups="pdk" />
