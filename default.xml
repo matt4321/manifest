@@ -19,7 +19,6 @@
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
@@ -403,6 +402,7 @@
   <project path="bionic" name="bionic" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="libcore" name="libcore" remote="teameos" revision="lp5.1" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="teameos" revision="lp5.1" groups="qcom" />
   <project path="external/android-visualizer" name="external_android-visualizer" remote="teameos" revision="lp5.1" />
   <project path="external/ant-wireless/antradio-library" name="external_ant-wireless_antradio-library" remote="teameos" revision="lp5.1"/>
