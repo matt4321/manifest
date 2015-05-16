@@ -11,11 +11,13 @@
             fetch="git://github.com/teameos/"
             review="review.teameos.org"
             sync-j="4"
+            sync-c="true"
             revision="lp5.1" />
 
   <default revision="refs/tags/android-5.1.1_r1"
             remote="aosp"
-            sync-j="4" />
+            sync-j="4"
+            sync-c="true" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
