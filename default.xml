@@ -535,6 +535,7 @@
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="lp5.1" />
+  <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.1" />
@@ -562,5 +563,6 @@
 
   <!-- Define vendor projects in device dependencies as needed -->
   <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="lp5.1" groups="pdk" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="teameos" revision="lp5.1" groups="pdk" />
 
 </manifest>
