@@ -462,6 +462,7 @@
   <project path="external/stagefright-plugins" name="external_stagefright-plugins" remote="teameos" revision="lp5.1" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/zlib" name="external_zlib" remote="teameos" revision="lp5.1" groups="pdk" />
+  <project path="external/Xposed-Battery-Home-Icon" name="Xposed-Battery-Home-Icon" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/ex" name="frameworks_ex" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
