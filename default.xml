@@ -433,7 +433,7 @@
   <project path="external/htop" name="external_htop" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/iproute2" name="external_iproute2" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/iptables" name="external_iptables" remote="teameos" revision="lp5.1" groups="pdk" />
-  <project path="external/iw" name="external_iw" remote="teameos" revision="lp5.1" groups="notdefault" />
+  <project path="external/iw" name="external_iw" remote="teameos" revision="lp5.1" />
   <project path="external/jpeg" name="external_jpeg" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/libcyanogen-dsp" name="external_libcyanogen-dsp" remote="teameos" revision="lp5.1" />
   <project path="external/libdirac" name="external_libdirac" remote="teameos" revision="lp5.1" />
