@@ -420,6 +420,7 @@
   <project path="external/dnsmasq" name="external_dnsmasq" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/ebtables" name="external_ebtables" remote="teameos" revision="lp5.1" />
+  <project path="external/eos-utils" name="external_eos-utils" remote="teameos" revision="lp5.1" />
   <project path="external/exfat" name="external_exfat" remote="teameos" revision="lp5.1" />
   <project path="external/ffmpeg" name="external_ffmpeg" remote="teameos" revision="lp5.1" />
   <project path="external/flac" name="external_flac" remote="teameos" revision="lp5.1" />
