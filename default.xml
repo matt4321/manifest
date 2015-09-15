@@ -503,7 +503,6 @@
   <project path="system/bt" name="platform/system/bt" groups="pdk" />
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/core" name="platform/system/core" groups="pdk" />
   <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
@@ -542,5 +541,6 @@
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="master" groups="pdk" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="master" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="master" groups="pdk" />
+  <project path="system/core" name="system_core" groups="pdk" remote="teameos" revision="master" />
 
 </manifest>
