@@ -380,7 +380,6 @@
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -541,6 +540,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="master" groups="pdk" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="master" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="master" groups="pdk" />
+  <project path="hardware/ril" name="hardware_ril" groups="pdk" remote="teameos" />
   <project path="system/core" name="system_core" groups="pdk" remote="teameos" revision="master" />
 
 </manifest>
