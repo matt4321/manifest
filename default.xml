@@ -460,7 +460,6 @@
   <project path="external/zlib" name="external_zlib" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="external/Xposed-Battery-Home-Icon" name="Xposed-Battery-Home-Icon" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="lp5.1" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/ex" name="frameworks_ex" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/opt/bluetooth" name="frameworks_opt_bluetooth" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
@@ -468,10 +467,8 @@
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/mms" name="frameworks_opt_mms" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/ethernet" name="frameworks_opt_net_ethernet" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/opt/vcard" name="frameworks_opt_vcard" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="frameworks/rs" name="frameworks_rs" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="frameworks/webview" name="frameworks_webview" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
@@ -514,43 +511,32 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="teameos" revision="lp5.1" groups="omap4" />
   <project path="hardware/ti/omap4-aah" name="hardware_ti_omap4-aah" remote="teameos" revision="lp5.1" groups="omap4" />
   <project path="packages/apps/AudioFX" name="packages_apps_AudioFX" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Eleven" name="packages_apps_Eleven" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/EOSUpdater" name="packages_apps_EOSUpdater" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/EOSWallpaperClient" name="packages_apps_EosWallpaperClient" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Profiles" name="packages_apps_Profiles" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="lp5.1" />
-  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/Tag" name="packages_apps_Tag" remote="teameos" revision="lp5.1" />
   <project path="packages/apps/ThemeChooser" name="packages_apps_ThemeChooser" remote="teameos" revision="lp5.1" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="teameos" revision="lp5.1" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="lp5.1" />
   <project path="packages/providers/ThemesProvider" name="packages_providers_ThemesProvider" remote="teameos" revision="lp5.1" />
   <project path="packages/providers/UserDictionaryProvider" name="packages_providers_UserDictionaryProvider" remote="teameos" revision="lp5.1" groups="pdk-cw-fs" />
   <project path="packages/services/Mms" name="packages_services_Mms" remote="teameos" revision="lp5.1" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="teameos" revision="lp5.1" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="lp5.1" />
   <project path="system/core" name="system_core" groups="pdk" remote="teameos" revision="lp5.1" />
   <project path="system/extras" name="system_extras" groups="pdk" remote="teameos" revision="lp5.1" />
   <project path="system/keymaster" name="system_keymaster" groups="pdk" remote="teameos" revision="lp5.1" />
@@ -560,9 +546,26 @@
   <project path="system/security" name="system_security" remote="teameos" revision="lp5.1" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="teameos" revision="lp5.1" groups="pdk" />
 
-  <!-- Define vendor projects in device dependencies as needed -->
-  <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="lp5.1" groups="pdk" />
-  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="teameos" revision="lp5.1" groups="pdk" />
+  <!-- AOSP Telephony stack -->
+  <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk-cw-fs" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk-cw-fs" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/Mms-caf" name="packages_apps_Mms-caf" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="teameos" revision="lp5.1-aosp-tele" />
+  <project path="vendor/eos" name="vendor_eos" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk" />
+  <project path="vendor/cmsdk" name="cm_platform_sdk" remote="teameos" revision="lp5.1-aosp-tele" groups="pdk" />
+
+  <!-- Define vendor projects in device dependencies as needed, NOTE: needed in AOSP Tele -->
+
 
   <!-- Hard track some CM repos, as long as it is productive -->
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" remote="github" revision="cm-12.1" />
