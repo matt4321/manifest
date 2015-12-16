@@ -404,7 +404,7 @@
   <project path="frameworks/av" name="frameworks_av" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="teameos" revision="kk4.4" />
   <project path="frameworks/native" name="frameworks_native" remote="teameos" revision="kk4.4" groups="pdk" />
-  <project path="frameworks/opt/connectivity" name="frameworks_opt_connectivity" remote="teameos" revision="kk4.4" />
+  <!--<project path="frameworks/opt/connectivity" name="frameworks_opt_connectivity" remote="teameos" revision="kk4.4" /> -->
   <project path="frameworks/opt/hardware" name="frameworks_opt_hardware" remote="teameos" revision="kk4.4" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="frameworks/opt/telephony-msim" name="frameworks_opt_telephony-msim" remote="teameos" revision="kk4.4" groups="pdk" />
@@ -563,7 +563,7 @@
   <project path="vendor/elan" name="vendor_elan" remote="teameos" revision="kk4.4" groups="notdefault,vendor,elan,grouper,tilapia" />
   <project path="vendor/htc" name="vendor_htc" remote="teameos" revision="kk4.4" groups="notdefault,vendor,htc,dlx,m7,m7spr,m7vzw,s4,jewel,evita,ville,fireball,m8" />
   <project path="vendor/hp/tenderloin" name="vendor_hp_tenderloin" remote="teameos" revision="kk4.4" groups="notdefault,vendor,hp,tenderloin" />
-  <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" />
+  <!-- <project path="vendor/imgtec" name="vendor_imgtec" remote="teameos" revision="kk4.4" groups="vendor,imgtec" /> -->
   <project path="vendor/invensense" name="vendor_invensense" remote="teameos" revision="kk4.4" groups="vendor,invensense" />
   <project path="vendor/lge" name="vendor_lge" remote="teameos" revision="kk4.4" groups="notdefault,vendor,lge" />
   <project path="vendor/moto/wingray" name="vendor_moto_wingray" remote="teameos" revision="kk4.4" groups="vendor,moto,wingray,stingray,stingray_cdma,everest" />
@@ -586,6 +586,6 @@
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
   <project path="vendor/T-Mobile/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="teameos" revision="kk4.4" />
   <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
-  <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" />
+  <!-- <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" /> -->
   <project path="vendor/widevine" name="vendor_widevine" remote="teameos" revision="kk4.4" groups="vendor,widevine" />
 </manifest>
