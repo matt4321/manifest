@@ -361,7 +361,7 @@
   <project path="external/bson" name="external_bson" remote="teameos" revision="kk4.4" />
   <project path="external/busybox" name="external_busybox" remote="teameos" revision="kk4.4" />
   <project path="external/chromium_org" name="external_chromium_org" remote="teameos" revision="kk4.4" />
-  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="teameos" revision="kk4.4" />
+  <!-- <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" remote="teameos" revision="kk4.4" /> -->
   <project path="external/clang" name="external_clang" remote="teameos" revision="kk4.4" groups="pdk" />
   <project path="external/connectivity" name="external_connectivity" remote="teameos" revision="kk4.4" />
   <project path="external/curl" name="external_curl" remote="teameos" revision="kk4.4" />
@@ -431,8 +431,8 @@
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="teameos" revision="kk4.4" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="teameos" revision="kk4.4" groups="qcom" />
-  <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="teameos" revision="kk4.4" groups="qcom" />
+  <!-- <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="teameos" revision="kk4.4" groups="qcom" /> -->
+  <!-- <project path="hardware/qcom/media-caf-new" name="hardware_qcom_media-caf-new" remote="teameos" revision="kk4.4" groups="qcom" /> -->
   <project path="hardware/qcom/media-cm_aosp" name="hardware_qcom_media-cm_aosp" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" remote="teameos" revision="kk4.4" groups="qcom" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" remote="teameos" revision="kk4.4" groups="qcom" />
@@ -462,11 +462,11 @@
   <project path="packages/apps/Music" name="packages_apps_Music" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="teameos" revision="kk4.4" />
-  <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="teameos" revision="kk4.4" />
+  <!-- <project path="packages/apps/SlimFileManager" name="packages_apps_SlimFileManager" remote="teameos" revision="kk4.4" /> -->
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="teameos" revision="kk4.4" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="teameos" revision="kk4.4" />
-  <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="teameos" revision="kk4.4" />
+  <!-- <project path="packages/apps/Trebuchet" name="packages_apps_Trebuchet" remote="teameos" revision="kk4.4" /> -->
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" remote="teameos" revision="kk4.4"/>
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="teameos" revision="kk4.4" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" remote="teameos" revision="kk4.4" />
@@ -585,7 +585,7 @@
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="teameos" revision="kk4.4" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
   <project path="vendor/T-Mobile/ThemeChooser" name="vendor_tmobile_apps_ThemeChooser" remote="teameos" revision="kk4.4" />
-  <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" />
+  <!-- <project path="vendor/T-Mobile/ThemeManager" name="vendor_tmobile_providers_ThemeManager" remote="teameos" revision="kk4.4" /> -->
   <!-- <project path="vendor/T-Mobile/com.tmobile.themes" name="vendor_tmobile_libs_com.tmobile.themes" remote="teameos" revision="kk4.4" /> -->
   <project path="vendor/widevine" name="vendor_widevine" remote="teameos" revision="kk4.4" groups="vendor,widevine" />
 </manifest>
